@@ -13,15 +13,15 @@ int main(void)
 
 	for (n = '0'; n < '9'; n++)
 	{
-		for (m = n+1; m <= '9'; m++)
+		for (m = n + 1; m <= '9'; m++)
 		{
-			for (p = p + 1; p <= '9'; p++)
+			for (p = m + 1; p <= '9'; p++)
 			{
 				putchar(n);
 				putchar(m);
 				putchar(p);
 
-				if (m == '9')
+				if (p == '9' && m == '8'  && n == '7')
 					break;
 
 				putchar(',');
