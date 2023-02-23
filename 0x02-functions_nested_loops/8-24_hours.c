@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - print the minutes
- * 
+ *
  * Return: void
  */
 
