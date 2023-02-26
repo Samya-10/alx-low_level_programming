@@ -2,7 +2,8 @@
 
 /**
  * mul - multiply two integers
- * @a, @b: the integers
+ * @a: first parameter
+ * @b: second parameter
  * Return: the result of multiplication (success)
  */
 
