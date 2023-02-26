@@ -18,8 +18,6 @@ void print_number(int n)
 		_putchar('-');
 	}
 	a /= 10;
-
-	_putchar('#');
 	if (a != 0)
 	{
 		print_number(a);
