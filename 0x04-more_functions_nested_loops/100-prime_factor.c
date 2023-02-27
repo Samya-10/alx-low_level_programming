@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 #include <math.h>
 
@@ -10,10 +9,8 @@
 
 int main(void)
 {
-	long n, max_factor, num;
-
-	num = 612852475143;
-
+	long n, max_factor;
+	long num = 612852475143;
 	double square = sqrt(num);
 
 	for (n = 1; n <= square; n++)
