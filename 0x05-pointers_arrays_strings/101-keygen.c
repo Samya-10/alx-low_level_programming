@@ -13,14 +13,14 @@ int main(void)
 	char password[84];
 	int i = 0, sum = 0, dif_half1, dif_half2;
 
-	scrand(timt(0));
+	srand(timt(0));
 
 	while (sum < 2772)
 	{
 		password[i] = 33 + rand() % 94;
 		sum += password[i++];
 	}
-
+
 	password[i] = '\0';
 
 	if (sum != 2772)
