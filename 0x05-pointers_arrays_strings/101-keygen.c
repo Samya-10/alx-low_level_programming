@@ -13,7 +13,7 @@ int main(void)
 	char password[84];
 	int i = 0, sum = 0, dif_half1, dif_half2;
 
-	srand(timt(0));
+	srand(time(0));
 
 	while (sum < 2772)
 	{
