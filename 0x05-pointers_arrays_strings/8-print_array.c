@@ -10,10 +10,9 @@
 
 void print_array(int *a, int n)
 {
-	int len, i;
+	int i;
 
-	len = (int)(sizeof(a) / sizeof(a[0]));
-	for (i = 0; i < n && i < len ; i++)  
+	for (i = 0; i < n; i++)  
 	{
 		if (i == n - 1 || i == len -1)
 		{
