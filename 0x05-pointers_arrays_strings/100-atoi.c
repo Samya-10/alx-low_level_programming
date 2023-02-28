@@ -11,6 +11,8 @@
 
 int _atoi(char *s)
 {
-	atoi(s);
-	return (s);
+	int n;
+
+	n = atoi(s);
+	return (n);
 }
