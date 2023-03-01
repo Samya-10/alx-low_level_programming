@@ -11,7 +11,6 @@
 int main(void)
 {
 
-        int i;
         long fibo, fibo_0 = 1, fibo_1 = 2, sum = 0;
 
         while (fibo_0 <= 4000000)
