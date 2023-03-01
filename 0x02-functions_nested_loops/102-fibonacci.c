@@ -17,13 +17,14 @@ int main(void)
 	{
 		printf("%d, ", fibo_0);
 
+		fibo = fibo_1 + fibo_0;
 		fibo_0 = fibo_1;
 		fibo_1 = fibo;		
 
 
 		if (i == 50)
 		{
-			printf("%d, %d\n", fibo_1, fibo);
+			printf("%d\n", fibo);
 		}
 	}
 	return (0);
