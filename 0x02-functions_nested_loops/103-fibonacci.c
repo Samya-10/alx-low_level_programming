@@ -24,6 +24,6 @@ int main(void)
 		fibo_0 = fibo_1;
 		fibo_1 = fibo;
 	}
-	printf("%ld", sum);
+	printf("%ld\n", sum);
 	return (0);
 }
