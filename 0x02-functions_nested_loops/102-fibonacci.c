@@ -12,16 +12,16 @@ int main(void)
 {
 
 	int i;
-	long fibo, fibo_0 = 0, fibo_1 = 1;
+	long fibo, fibo_0 = 1, fibo_1 = 2;
 
 	for (i = 2; i <= 50; i++)
 	{
+		printf("%d, ", fibo_0);
 
 		fibo = fibo_1 + fibo_0;
 		fibo_0 = fibo_1;
 		fibo_1 = fibo;
 
-		printf("%ld, ", fibo_0);
 		if (i == 50)
 		{
 			printf("%ld\n", fibo);
