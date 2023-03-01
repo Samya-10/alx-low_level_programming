@@ -16,7 +16,7 @@ int main(void)
 
 	for (i = 2; i <= 50; i++)
 	{
-		printf("%d, ", fibo_0);
+		printf("%ld, ", fibo_0);
 
 		fibo = fibo_1 + fibo_0;
 		fibo_0 = fibo_1;
