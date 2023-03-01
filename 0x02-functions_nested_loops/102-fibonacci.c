@@ -24,7 +24,7 @@ int main(void)
 
 		if (i == 50)
 		{
-			printf("%ld\n", fibo);
+			printf("%ld\n", fibo_0);
 		}
 	}
 	return (0);
