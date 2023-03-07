@@ -18,13 +18,10 @@ void print_diagsums(int *a, int size)
 	{
 		sum1 += a[i][i];
 	}
-	printf("%d, ", sum1);
-
 	for (i = 0; i < size; i++)
 	{
 		j = size - i;
 		sum2 += a[i][j - 1];
 	}
-	printf("%d\n ", sum2);
-
+	printf("%d, %d\n", sum1, sum2);
 }
