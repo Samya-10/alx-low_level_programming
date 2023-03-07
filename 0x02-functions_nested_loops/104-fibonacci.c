@@ -23,8 +23,9 @@ int main(void)
 
 		if (i == 98)
 		{
-			printf("%lu\n", fibo_0);
+			printf("%lu", fibo_0);
 		}
 	}
+	printf("\n");
 	return (0);
 }
