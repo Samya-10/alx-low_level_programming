@@ -11,11 +11,11 @@
 int main(void)
 {
 	int i;
-	long fibo, fibo_0 = 1, fibo_1 = 2;
+	unsigned long fibo, fibo_0 = 1, fibo_1 = 2;
 
 	for (i = 2; i <= 98; i++)
 	{
-		printf("%ld, ", fibo_0);
+		printf("%lu, ", fibo_0);
 
 		fibo = fibo_1 + fibo_0;
 		fibo_0 = fibo_1;
@@ -23,7 +23,7 @@ int main(void)
 
 		if (i == 98)
 		{
-			printf("%ld\n", fibo_0);
+			printf("%lu\n", fibo_0);
 		}
 	}
 	return (0);
