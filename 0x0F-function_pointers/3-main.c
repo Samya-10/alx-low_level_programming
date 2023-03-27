@@ -10,7 +10,7 @@
  * Return: The result of operation.
  */
 
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int (*oprt)(int, int);
 
