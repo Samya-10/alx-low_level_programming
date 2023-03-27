@@ -67,7 +67,7 @@ int op_div(int a, int b)
  * Return: The result of operation.
  */
 
-int op_sub(int a, int b)
+int op_mod(int a, int b)
 {
 	if (b == 0)
 	{
