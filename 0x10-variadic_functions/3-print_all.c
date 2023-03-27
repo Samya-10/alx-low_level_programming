@@ -12,7 +12,7 @@
 
 void print_all(const char * const format, ...)
 {
-	int i;
+	int i =  0;
 	char *str, *separator = "";
 
 	va_list list;
